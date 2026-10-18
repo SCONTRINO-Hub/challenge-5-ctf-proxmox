@@ -93,6 +93,12 @@ Réglages : `/etc/ctf-progression.conf`. Journal : `/var/log/ctf_progression_cre
 Codes de sortie : `0` tout est prêt ou abandon choisi ; `1` erreur, étudiant en échec, armement raté
 ou Ctrl+D ; `130` interruption (Ctrl+C).
 
+## Énoncés
+
+Le dossier [`enonces/`](enonces/) contient l'énoncé de chaque CTF, à distribuer aux étudiants
+(`CTFn-2027-<thème>.pdf`, en clair). Les commandes y utilisent `${TARGET_IP}`, à remplacer par
+l'adresse du conteneur de l'étudiant (`<préfixe>.1nn`, voir plus haut).
+
 ## Corrigés
 
 Le dossier [`corriges/`](corriges/) contient une feuille de correction par CTF
