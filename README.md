@@ -16,6 +16,11 @@ feuille de correction de l'enseignant resserve.
 > ⚠️ **À l'attention des enseignants** : ce dépôt est public et les scénarios des CTF y sont
 > lisibles. Il est destiné aux collègues, pas aux étudiants.
 
+## Présentation
+
+[`Presentation-Challenge-5-CTF.pdf`](Presentation-Challenge-5-CTF.pdf) : le challenge en deux pages
+(principe, progression automatique, le menu en images), à faire circuler entre collègues.
+
 ## Installation
 
 ```bash
