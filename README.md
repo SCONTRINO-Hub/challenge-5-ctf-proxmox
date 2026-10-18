@@ -93,6 +93,17 @@ Réglages : `/etc/ctf-progression.conf`. Journal : `/var/log/ctf_progression_cre
 Codes de sortie : `0` tout est prêt ou abandon choisi ; `1` erreur, étudiant en échec, armement raté
 ou Ctrl+D ; `130` interruption (Ctrl+C).
 
+## Corrigés
+
+Le dossier [`corriges/`](corriges/) contient une feuille de correction par CTF
+(`CTFn-2027-Flags.pdf`), avec les flags attendus pour chaque numéro d'étudiant. Comme les flags ne
+changent pas d'une année sur l'autre, ces feuilles restent valables tant que le script n'est pas
+modifié.
+
+Les PDF sont chiffrés (AES-256) : **le mot de passe est fourni aux enseignants sur demande**, par
+mail, jamais dans le dépôt ni dans une *issue*. Pour vos propres classes, vous n'en avez pas besoin :
+`ctf_resultats/<CTF>/` contient déjà les flags de chacun de vos étudiants.
+
 ## Licence
 
 **[CC BY-NC-SA 4.0](LICENSE)** : réutilisation et modification libres à des fins pédagogiques,
