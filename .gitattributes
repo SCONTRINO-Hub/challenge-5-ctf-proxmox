@@ -1,0 +1,3 @@
+# Fins de ligne Unix pour le script, même après un « git clone » sous Windows
+*.sh   text eol=lf
+*.md   text eol=lf
